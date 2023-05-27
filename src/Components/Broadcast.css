@@ -1,0 +1,114 @@
+.broad-main{
+    display: flex;
+}
+.broad-left{
+    width: 20%;
+    background-color:rgb(246, 245, 245) ;
+    
+}
+.broad-right{
+    width: 80%;
+
+}
+.bulk-button{
+    background-color: rgb(68, 74, 68);
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight:700 ;
+    border-radius: 5px;
+    color: #fff;
+}
+.template{
+    display: flex;
+}
+.select-temp{
+    width: 33%;
+    background-color: #fff;
+}
+.map{
+    width: 33%;
+    background-color: #fff;
+}
+.sample{
+    width: 34%;
+    background-color: #fff;
+}
+.temp-btn{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 95px;
+    background-color: #464a46; 
+    color: #fff;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: none;
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: rgb(246, 245, 245);
+    
+}
+.text-map{
+    margin-left: 80px;
+}
+.text-sample{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+.preview{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    background-color: #464a46; 
+    color: #fff;
+    border-radius: 3px;
+
+}
+.table-2{
+    margin-left: -45px;
+}
+.table{
+    display: flex;
+    margin-left: 3px;
+}
+.text-3{
+    margin-left: 0px;
+    border-bottom: 1px solid;
+}
+.sl-text{
+    margin-left: 20px;
+}
+.sl-name{
+    margin-left: 120px;
+}
+.sl-cont{
+    margin-left: 80px;
+}
+.sl-var1{
+    margin-left: 40px;
+}
+.upload{
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-3{
+    background-color: #464a46; 
+    color: #fff;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+}
+.bulk-input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
