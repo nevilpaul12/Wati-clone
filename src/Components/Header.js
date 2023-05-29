@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { BsWhatsapp,BsFillChatLeftDotsFill,BsFillPeopleFill,BsFillCaretRightFill,BsFillChatFill } from "react-icons/bs";
+import { AiFillSetting } from "react-icons/ai";
 import './Header.css' ;
 
 function Header() {
@@ -26,6 +27,9 @@ function Header() {
                 </li>
                 <li>
                     <BsFillCaretRightFill/><NavLink to="/automation">AUTOMATION</NavLink>
+                </li>
+                <li>
+                    <AiFillSetting className='set-icon'/><NavLink to="/settings">SETTINGS</NavLink>
                 </li>
             </ul>
         </div>

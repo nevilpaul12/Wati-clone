@@ -1,5 +1,5 @@
 
-import {BsFillChatDotsFill,BsFillTelephoneFill,BsFillPersonFill,BsAlexa ,BsClipboardData,BsReception0,BsSearch} from "react-icons/bs";
+import {BsFillChatDotsFill,BsFillTelephoneFill,BsFillPersonFill,BsAlexa ,BsClipboardData,BsReception0} from "react-icons/bs";
 import './Inbox.css'
 
 

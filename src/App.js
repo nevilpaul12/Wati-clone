@@ -6,6 +6,7 @@ import Contacts from './Components/Contacts';
 import Header from './Components/Header';
 import Inbox from './Components/Inbox';
 import {Routes,Route} from 'react-router-dom'
+import Settings from './Components/Settings';
 
 
 
@@ -21,6 +22,8 @@ function App() {
         <Route path='/contacts' element={<Contacts/>}></Route>
         <Route path='/broadcast' element={<Broadcast/>}></Route>
         <Route path='/automation' element={<Automation/>}></Route>
+        <Route path='/settings' element={<Settings/>}></Route>
+
 
       </Routes>
     
