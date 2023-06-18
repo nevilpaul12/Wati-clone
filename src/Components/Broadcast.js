@@ -11,10 +11,15 @@ function Broadcast() {
             <div className="template">
               <div className="select-temp">
               
-                  <button className='temp-btn'>Select Template</button>
-                  <br />
-                  <textarea cols="40" rows="9"></textarea>
-              </div>
+              <select className='drop-down'>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+
+
+                  </div>
               <div className="map">
                   <button className='temp-btn'>Map Variable</button>
                   <br />
